@@ -1,6 +1,6 @@
 # Binary Tree
 ---
-# #Description:
+## Description:
 **A simple project to implement template binary tree.**
 
 ## Class diagram:
