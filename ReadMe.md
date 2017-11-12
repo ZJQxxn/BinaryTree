@@ -11,7 +11,7 @@
 ## How to use class:'BinaryTree'
 To use template tree, one need to include its header file firstly:
 
-	#include "BinaryTree"
+	#include "BinaryTree.h"
 
 > ### 1. addTerm(T& value)
 > Add a node in the binary tree given the value of node.
@@ -38,7 +38,7 @@ To use template tree, one need to include its header file firstly:
 ## How to use traverse iterator
 To use traverse iterator ,one need to include its header file firstly:
 	
-	#include "Iterators"
+	#include "Iterators.h"
 
 One can use traverse iterator just by passing an instance of class:'BinaryTree' to iterator's constructor:
 	
