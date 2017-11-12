@@ -1,41 +1,41 @@
-#Binary Tree
+# Binary Tree
 ---
-##Description:
+# #Description:
 **A simple project to implement template binary tree.**
 
-##Class diagram:
+## Class diagram:
 ![](ClassDiagram.png)
 
 
 ---
-##How to use class:'BinaryTree'
+## How to use class:'BinaryTree'
 To use template tree, one need to include its header file firstly:
 
 	#include "BinaryTree"
 
-> ###1. addTerm(T& value)
+> ### 1. addTerm(T& value)
 > Add a node in the binary tree given the value of node.
->###2. isEmpty()
+>### 2. isEmpty()
 >Determin whether the tree is empty.
->###3. countLeaves()
+>### 3. countLeaves()
 >Count the number of leaf nodes.
->###4. clearAll()
+>### 4. clearAll()
 > Clear all nodes.
-> ###5. leftSubTree()
+> ### 5. leftSubTree()
 > Get left subtree.
-> ###6. rightSubTree()
+> ### 6. rightSubTree()
 > Get right subtree.
-> ###7. preTraverse()
+> ### 7. preTraverse()
 > Traverse tree in preorder.
-> ###8. inTraverse()
+> ### 8. inTraverse()
 > Traverse tree in inorder.
-> ###9. postTraverse()
+> ### 9. postTraverse()
 > Traverse tree in postorder.
-> ###10. levelTraverse()
+> ### 10. levelTraverse()
 > TRaverse tree in levelorder.
 
 ---
-##How to use traverse iterator
+## How to use traverse iterator
 To use traverse iterator ,one need to include its header file firstly:
 	
 	#include "Iterators"
@@ -57,12 +57,12 @@ Iterators are also polymorphic:
 	}
 
 ---
-##Example
-###Test on this bianary tree:
+## Example
+### Test on this bianary tree:
 
 ![](TestTree.png)
 
-###Test Code
+### Test Code
 
 	#include "Iterators.h"
 	#include "BinaryTree.h"
@@ -112,6 +112,7 @@ Iterators are also polymorphic:
 		return 0;
 	}
 
-###The output:
+### The output:
+
 ![](ExampleOutput.png)
 
