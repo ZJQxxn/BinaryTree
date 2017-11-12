@@ -33,6 +33,8 @@ To use template tree, one need to include its header file firstly:
 > Traverse tree in postorder.
 > ### 10. levelTraverse()
 > TRaverse tree in levelorder.
+> ### 11. getRoot()
+> Get value of root node.
 
 ---
 ## How to use traverse iterator
